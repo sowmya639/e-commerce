@@ -1,0 +1,73 @@
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ rosversion -d
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt update
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install curl gnupg2 lsb-release
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+OK
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install ros-noetic-desktop-full
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install ros-noetic-desktop
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install ros-noetic-ros-base
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo rosdep init
+rosdep update
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ sudo apt install python3-roslaunch
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ rosversion -d
+iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ printenv | grep ROS
+ROS_VERSION=2
+ROS_PYTHON_VERSION=3
+ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+ROS_DISTRO=iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ ls /opt/ros/
+humble  iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ ls /opt/ros/
+humble  iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ dpkg -l | grep ros-
+                       
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ rosversion -
+d
+iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ rosversion -d
+iron
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ source /opt/ros/<ros_version>/setup.bash
+-bash: ros_version: No such file or directory
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$ source /opt/ros/iron/setup.bash
+
+
+sowmya@DESKTOP-SMNJ035:/mnt/c/windows/system32$
+humble  iron
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viwport" content="width=device-width, initial-scale=1.0">
+        <title>E-commerece app front end using bootstrap</title>
+
+        <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">-->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous" /> 
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--<link rel="stylesheet" href="style.css">-->
+    </head>
+    
+    <body>
+
+        <!-- Naigation -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+            <div class="container">
+                <img src="images/logo.jpg" alt="">              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i id="bar" class="fas fa-bars"></i></span>
+              </button>
+              <div class="navbar-collapse collapse show" id="navbarSupportedContent" style>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fal fa-search"></i>
+                        <i class="fal fa-shopping-bag"></i>
+                        
+                    </li>
+                  
+              </div>
+            </div>
+          </nav>
+          <section id="home">
+            <div class="container-fluid">
+                <h5>NEW ARRIVALS</h5>
+                <h1><span>Best Price </span> This Year</h1>
+                <p>Festival sale offer <br>very comfortable time</p>
+                <button>Shop Now</button>
+
+            </div>
+
+          </section>
+
+          <section id="brand" class="container">
+            <div class="row m-0 py-5">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand.jpg" alt="">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand1.jpeg" alt="">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand5.jpeg" alt="">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand3.jpeg" alt="">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand4.jpg" alt="">
+                <img class="img-fluid col-lg-2 col-md-4 col-6" src="images/brand2.jpeg" alt="">
+            </div>
+          </section>
+
+          <section id="new" class="w-100">
+            <div class="row p-0 m-0">
+                <div class="one col-lg-4 col-md-12 col-12 p-0">
+                   <img class="img-fluid" src="images/new.jpeg" alt="">
+                   <div class="details">
+                    <h2>Extreme Collection Sneakers</h2>
+                    <button class="text-uppercase">Shop Now</button>
+                   </div> 
+                </div>
+                <div class="one col-lg-4 col-md-12 col-12 p-0">
+                   <img class="img-fluid" src="images/new2.jpeg" alt="">
+                   <div class="details">
+                    <h2>Casual Fall Outfits UpTo 20% Off</h2>
+                    <button class="text-uppercase">Shop Now</button>
+                    </div>
+                    </div>
+                    <div class="one col-lg-4 col-md-12 col-12 p-0">
+                        <img class="img-fluid" src="images/new3.jpeg" alt="">
+                        <div class="details">
+                         <h2>Antique Horward Pocket Watches</h2>
+                         <button class="text-uppercase">Shop Now</button>
+                         </div>
+                         </div>
+            </div>
+        </section>
+        
+        <section id="featured" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+        <h3>Our Featured</h3>
+        <hr class="mx-auto">
+        <p>Here You Can Check Out The Best Collection with Fair Price</p>
+            </div>
+            <div class="row mx-auto container-fluid" >
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                   <img class="img-fluid mb-3" src="images/featured.jpeg"  alt="">
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                   <h5 class="p-name">Boots</h5>
+                   <h4 class="p-price">$90.00</h4>
+                   <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="images/featured1.jpeg"  alt="">
+                    <div class="star">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">CasualShoe</h5>
+                    <h4 class="p-price">$100.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+                 </div>
+                 <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="images/featured2.jpeg"  alt="">
+                    <div class="star">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Backpack</h5>
+                    <h4 class="p-price">$30.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+                 </div>
+                 <div class="product text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="images/featured3.jpeg"  alt="">
+                    <div class="star">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">French Beret Hat</h5>
+                    <h4 class="p-price">$60.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+                 </div>
+            </div>
+        </section>
+
+        <section id="banner" class="my-5 py-5">
+            <div class="container">
+                <h4>MAHA DIWALI SALE</h4>
+                <h1>First In Fashion <br> Get Upto 50% OFF</h1>
+                <button class="text-uppercase">Shop Now</button>
+            </div>
+        </section>
+
+    <section id="clothes" class="my-5">
+            <div class="container text-center mt-5 py-5">
+        <h3>Dresses & Jumpsuits</h3>
+        <hr class="mx-auto">
+        <p>Here You Can Check Out The Best Collection with Fair Price</p>
+            </div>
+            <div class="row mx-auto container-fluid" >
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                   <img class="img-fluid mb-3" src="images/col.jpeg"  alt="">
+                   <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                   </div>
+                   <h5 class="p-name">Dresses Upto30% OFF</h5>
+                   <h4 class="p-price">$90.00</h4>
+                   <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid mb-3" src="images/col1.jpeg"  alt="">
+                    <div class="star">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+        </div>
+        <h5 class="p-name">Jumpsuits</h5>
+        <h4 class="p-price">$90.00</h4>
+        <button class="buy-btn">Buy Now</button>
+                </div>
+                        
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="images/col2.jpeg"  alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                        <h5 class="p-name">TraditionalWear</h5>
+                        <h4 class="p-price">$90.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+                    </div>
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                        <img class="img-fluid mb-3" src="images/col3.jpeg"  alt="">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                                <h5 class="p-name">Men wear UpTo 30% OFF</h5>
+                                <h4 class="p-price">$90.00</h4>
+                            <button class="buy-btn">Buy Now</button>
+                            </div>
+                        </section>
+    <section id="watches" class="my-5">
+     <div class="container text-center mt-5 py-5">
+        <h3>BestWatches</h3>
+        <hr class="mx-auto">
+        <p>Here You Can Check Out The Best Collection with Fair Price</p>
+        </div>
+        <div class="row mx-auto container-fluid" >
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+        <img class="img-fluid mb-3" src="images/watches.jpeg"  alt="">
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </div>
+                               <h5 class="p-name">Hi-Tech watches</h5>
+                               <h4 class="p-price">$90.00</h4>
+                               <button class="buy-btn">Buy Now</button>
+                            </div>
+                            <div class="product text-center col-lg-3 col-md-4 col-12">
+                              <img class="img-fluid mb-3" src="images/watches1.jpeg"  alt="">
+                                <div class="star">
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                                 <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="p-name">Digital Watches Upto30% OFF</h5>
+                    <h4 class="p-price">$90.00</h4>
+                    <button class="buy-btn">Buy Now</button>
+                            </div>
+                                    
+                    <div class="product text-center col-lg-3 col-md-4 col-12">
+                            <img class="img-fluid mb-3" src="images/watches2.jpeg"  alt="">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                                    <h5 class="p-name">Bulova Watches</h5>
+                                    <h4 class="p-price">$90.00</h4>
+                                <button class="buy-btn">Buy Now</button>
+                                </div>
+                                <div class="product text-center col-lg-3 col-md-4 col-12">
+                                    <img class="img-fluid mb-3" src="images/watches3.jpeg"  alt="">
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        </div>
+                                            <h5 class="p-name">Breguet Watches</h5>
+                                            <h4 class="p-price">$90.00</h4>
+                                        <button class="buy-btn">Buy Now</button>
+                                        </div>
+     </section>
+
+     <section id="shoes" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+           <h3>Running Shoes</h3>
+           <hr class="mx-auto">
+           <p>Here You Can Check Our New Best Collection with Fair Price</p>
+           </div>
+           <div class="row mx-auto container-fluid" >
+           <div class="product text-center col-lg-3 col-md-4 col-12">
+           <img class="img-fluid mb-3" src="images/shoe.jpeg"  alt="">
+               <div class="star">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   </div>
+                                  <h5 class="p-name">shoe</h5>
+                                  <h4 class="p-price">$90.00</h4>
+                                  <button class="buy-btn">Buy Now</button>
+                               </div>
+                               <div class="product text-center col-lg-3 col-md-4 col-12">
+                                 <img class="img-fluid mb-3" src="images/shoe1.jpeg"  alt="">
+                                   <div class="star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                       </div>
+                       <h5 class="p-name">shoe Upto30% OFF</h5>
+                       <h4 class="p-price">$90.00</h4>
+                       <button class="buy-btn">Buy Now</button>
+                               </div>
+                                       
+                       <div class="product text-center col-lg-3 col-md-4 col-12">
+                               <img class="img-fluid mb-3" src="images/shoe2.jpeg"  alt="">
+                               <div class="star">
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   <i class="fas fa-star"></i>
+                                   </div>
+                                       <h5 class="p-name">Shoe</h5>
+                                       <h4 class="p-price">$90.00</h4>
+                                   <button class="buy-btn">Buy Now</button>
+                                   </div>
+                                   <div class="product text-center col-lg-3 col-md-4 col-12">
+                                       <img class="img-fluid mb-3" src="images/shoe3.jpeg"  alt="">
+                                       <div class="star">
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           <i class="fas fa-star"></i>
+                                           </div>
+                                               <h5 class="p-name">shoe Upto30% OFF</h5>
+                                               <h4 class="p-price">$90.00</h4>
+                                           <button class="buy-btn">Buy Now</button>
+                                           </div>
+    </section>
+   
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <img src="images/logo.jpg"   alt="">
+                <p class="pt-3">Fringilla urna porttior rohncus dolor purus luctus venenatis lectus magna
+                    fringilla diam maecenas ultricies mi eget mauris.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">men</a></li>
+                    <li><a href="#">women</a></li>
+                    <li><a href="#">boys</a></li>
+                    <li><a href="#">girls</a></li>
+                    <li><a href="#">new arrivals</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">clothes</a></li>
+                </ul>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase">Address</h6>
+                    <p>369 LovelyStreet, MarvelCity, US</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Phone</h6>
+                    <p>(123) 369-9909</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Email</h6>
+                    <p>Priyanka139@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                    <img class="img-fluid w-25 h-100 m-2"     src="images/insta.jpeg"  alt="">
+                    <img class="img-fluid w-25 h-100 m-2"     src="images/insta1.jpeg"  alt="">
+                    <img class="img-fluid w-25 h-100 m-2"     src="images/insta2.jpeg"  alt="">
+                    <img class="img-fluid w-25 h-100 m-2"     src="images/insta3.jpeg"  alt="">
+                    <img class="img-fluid w-25 h-100 m-2"     src="images/insta4.jpeg"  alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright mt-5 py-md-5">
+            <div class="row container mx-autp">
+
+               <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <img class="img-fluid w-100 h-100 m-3"   src="images/payment.jpg" alt="">
+               </div>
+               <div class="py-md-5 col-lg-4 col-md-6 col-12 text-md-center text-monospace mb-2">
+                <p>eCommerece @ 2023. All Rights Reserved</p>
+               </div>
+               <div class="py-md-5 col-lg-4 col-md-6 col-12">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+               </div>
+            </div>
+        </div>      
+    </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" 
+        crossorigin="anonymous"></script>
+
+    </body>
+</html>
